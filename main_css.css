@@ -12,8 +12,8 @@ h1 {
 	font-family: Helvetica, sans-serif;
 	color: white;
 	
-	/*font-size:50px;*/
 	font-weight: 700px;
+	text-align: center;
 	
     top: 40%;
     width: 100%;
@@ -23,8 +23,8 @@ h2 {
 	font-family: Helvetica, sans-serif;
 	color: white;
 	
-	/*font-size: 30px;*/
 	font-weight: 300;
+	
 	
 	top: 50%;
     width: 100%;	
