@@ -1,4 +1,4 @@
-# my_Website
+# myWebsite
 This is a respository for a personal website.
 
 The development of this website is sporadic but ongoing nonetheless.
