@@ -8,35 +8,6 @@ body {
 	animation: fadein_color 1.5s;
 }
 
-#navbar {
-  overflow: hidden;
-  background-color: #444444;
-}
-
-#navbar a {
-  font-family: Helvetica, sans-serif;
-  float: left;
-  display: block;
-  color: #f2f2f2; /* Font-colour */
-  text-align: center;
-  padding: 15px;
-  text-decoration: none;
-}
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
 h1 {
 	font-family: Helvetica, sans-serif;
 	font-size: 50px;
