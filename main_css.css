@@ -45,13 +45,6 @@ h2 {
 	margin: 10px;
 }
 
-/* Style the header */
-.header {
-  padding: 10px 16px;
-  background: #000000;
-  color: #000000;
-}
-
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
