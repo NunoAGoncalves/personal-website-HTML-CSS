@@ -1,5 +1,5 @@
 body {
-	background-color: #252525;
+	background-color: #000000;
 
 	-webkit-animation: fadein_color 1.5s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein_color 1.5s; /* Firefox < 16 */
@@ -45,32 +45,22 @@ h2 {
 	margin: 10px;
 }
 
-h3 {
-	font-size: 50px;
-	color: white;
+/* Style the header */
+.header {
+  padding: 10px 16px;
+  background: #000000;
+  color: #000000;
 }
 
-p {
-	color: white;
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
 }
 
-.contentDiv {
-    position: relative;
-}
-
-
-
-.arrow {
-	color: #fff;
-	top: 80%;
-    animation: bouncing 1s infinite ease-in-out;
-    bottom: 0;
-    display: block;
-    height: 50px;
-    left: 50%;
-    margin-left: -25px;
-    position: absolute;
-    width: 50px;
+.sticky + .content {
+  padding-top: 102px;
 }
 
 /*-------------------------------------------------------- Configuration for different browsers -------------------------------------------------------- */
