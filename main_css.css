@@ -30,19 +30,31 @@ h2 {
 	font-size: 25px;
 	color: white;
 	opacity: 0;
-
+	
 	font-weight: 300;
 	
-	-webkit-animation: slideup 3s forwards; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: slideup 3s forwards; /* Firefox < 16 */
-    -ms-animation: slideup 3s forwards; /* Internet Explorer */
-    -o-animation: slideup 3s forwards; /* Opera < 12.1 */
-    animation: slideup 3s forwards;
+	-webkit-animation: fadein 2s forwards; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s forwards; /* Firefox < 16 */
+    -ms-animation: fadein 2s forwards; /* Internet Explorer */
+    -o-animation: fadein 2s forwards; /* Opera < 12.1 */
+    animation: fadein 2s forwards;
 	
 	animation-delay: 2s;
 	-webkit-delay: 2s;
+}
+
+.text {
+	font-weight: 300;
+	top: 0px;
 	
-	margin: 10px;
+	-webkit-animation: slideup 1s forwards; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: slideup 1s forwards; /* Firefox < 16 */
+    -ms-animation: slideup 1s forwards; /* Internet Explorer */
+    -o-animation: slideup 1s forwards; /* Opera < 12.1 */
+    animation: slideup 1s forwards;
+	
+	animation-delay: 2s;
+	-webkit-delay: 2s;
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
@@ -90,38 +102,31 @@ h2 {
 /*------------------------------------------------------ Transition --------------------------------------------------------*/
 
 @keyframes slideup {
-    from { opacity: 0; bottom: -100px;}
-    to   { opacity: 1; bottom: 0px;}
+    from { transform: translateY(50px);  }
+    to	 { transform: translateY(0);  }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes slideup {
-    from { opacity: 0; bottom: -100px;}
-    to   { opacity: 1; bottom: 0px;}
+    from { transform: translateY(50px);  }
+    to	 { transform: translateY(0);  }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes slideup {
-    from { opacity: 0; bottom: -100px;}
-    to   { opacity: 1; bottom: 0px;}
+    from { transform: translateY(50px);  }
+    to	 { transform: translateY(0);  }
 }
 
 /* Internet Explorer */
 @-ms-keyframes slideup {
-    from { opacity: 0; bottom: -100px;}
-    to   { opacity: 1; bottom: 0px;}
+    from { transform: translateY(50px);  }
+    to	 { transform: translateY(0);  }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes slideup {
-    from { opacity: 0; bottom: -100px;}
-    to   { opacity: 1; bottom: 0px;}
+    from { transform: translateY(50px);  }
+    to	 { transform: translateY(0);  }
 }
 
-/*------------------------------------------------------ Transition --------------------------------------------------------*/
-
-@keyframes bouncing {
-    0% {bottom: 0;}
-    50% {bottom: 20px;}
-    100% {bottom: 0;}
-}
