@@ -1,13 +1,9 @@
-# myWebsite
-This is a respository for a personal website.
+DEMO of the personal website: https://nunoagoncalves.github.io/personal-website-HTML-CSS/
 
-The development of this website is sporadic but ongoing nonetheless.
+Developed in order to learn more about HTML and CSS. 
 
-## Design
+Design of the personal website made is an amalgamation of all the personal websites I came across. 
 
-The design of my personal website is an amalgamation of all the personal websites I came across during my research. Below I have added a PNG image of the initial design I wanted to follow.
 
-![alt text](https://github.com/NunoAGoncalves/my_Website/blob/master/Design_Prototype.PNG)
 
-This design may change in the future but it is adequate for now. :+1:
 
