@@ -1,5 +1,5 @@
 body {
-	background-color: #000000;
+	background-color: #262626;
 
 	-webkit-animation: fadein_color 1.5s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein_color 1.5s; /* Firefox < 16 */
@@ -10,8 +10,8 @@ body {
 
 h1 {
 	font-family: Helvetica, sans-serif;
-	font-size: 50px;
-	color: white;
+	font-size: 70px;
+	color: #969696;
 	
 	font-weight: 700px;
 	padding-left: 0px;
@@ -31,7 +31,7 @@ h2 {
 	color: white;
 	opacity: 0;
 	
-	font-weight: 300;
+	font-weight: 400px;
 	
 	-webkit-animation: fadein 2s forwards; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s forwards; /* Firefox < 16 */
